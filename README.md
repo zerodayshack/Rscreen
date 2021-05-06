@@ -1,4 +1,5 @@
 #This is the README file to run the R script Screener.R for the evaluation of the SEIS candidate
+#License: Creative commons. Please cite this scritp with Barbara Russo, Free University of Bozen-Bolzano 2021 "Screener.R" 
 
 Prerequisite
 
@@ -12,6 +13,8 @@ Import the file with the list of candidates (from the Secretariat) in the folder
 Run from terminal:
 
 Rscript Screener.R <path to folder EvaluationApp> <name of the folder ("ExcelFiles")> <name of the file candidates list ("Lista_candidati_SEIS_1sessione_")> <name and suffix of the university ranking file ("JANUARY2020.xlsx")>
+
+If you do not want to run it from terminal un comment the corresponding lines in the script. 
 
 Output:
 Screener.R creates a folder named "Evaluation" in which there are two files a csv file and a txt file, for example
@@ -44,6 +47,7 @@ wStud<-0.6
 wBSc<-0.3
 wWE<-0.1
 wCV<-1
+#This is a default value for the CV. It will not be changed by the R script. 
 CV<-5
 
 #Type of BSc degree. Default 0
