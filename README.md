@@ -12,7 +12,10 @@ Import the file with the list of candidates (from the Secretariat) in the folder
 
 Run from terminal:
 
-Rscript Screener.R <path to folder EvaluationApp> <name of the folder ("ExcelFiles")> <name of the file candidates list ("Lista_candidati_SEIS_1sessione_")> <name and suffix of the university ranking file ("JANUARY2020.xlsx")>
+Rscript Screener.R <path to folder EvaluationApp (".")> <name of the folder ("ExcelFiles")> <name of the file candidates list ("Lista_candidati_SEIS_1sessione_")> <name and suffix of the university ranking file ("JANUARY2020.xlsx")>
+
+For example, if you want to run from the folder EvalautionApp in which the script Screen.R is run the following:
+sudo Rscript Screener.R "."  "ExcelFiles" "Candidates_List_2021_1" "JANUARY2020.xlsx"
 
 If you do not want to run it from terminal uncomment the corresponding lines in the script. 
 
