@@ -1,0 +1,18 @@
+CANDIDATE: Amir Altork
+name surname have been swapped: check name
+number of courses provided is not sufficient, manually check the score 0
+Degree is not eligible
+Check working experience
+WORKING EXPERIENCE: 34 score: 2
+candidate is not admitted
+CANDIDATE: Bakhshi Amin
+Check working experience
+Check working experience
+WORKING EXPERIENCE: 88 score: 3
+Duration not OK
+CANDIDATE: XXX YYY
+Candidate not found
+Check working experience
+Check working experience
+WORKING EXPERIENCE: 48 score: 3
+Evaluation 2020-05-21 12:40:56
